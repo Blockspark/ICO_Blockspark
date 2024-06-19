@@ -1,0 +1,13 @@
+Server is running on port 8080.
+7
+7
+7
+Server is running on port 8080.
+7
+ReferenceError: unassigned_walet is not defined
+    at Task.genrateWallet [as _execution] (/home/sevenbits/Documents/NFT_certificate/nftcertificate/controller/deamon.js:14:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+7
+ReferenceError: unassigned_walet is not defined
+    at Task.genrateWallet [as _execution] (/home/sevenbits/Documents/NFT_certificate/nftcertificate/controller/deamon.js:14:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

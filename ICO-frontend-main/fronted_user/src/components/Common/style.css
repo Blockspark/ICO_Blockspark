@@ -1,0 +1,9 @@
+.fade.modal.show {
+    background: rgba(0, 0, 0, 0.6);
+}
+.no-data-found{
+    text-align: center;
+}
+.calender{
+    color: blue;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "nft_static_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "api-logs": "^1.0.4",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "bignumber.js": "^9.0.1",
+    "bip39": "^3.0.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eosjs-api": "^7.0.4",
+    "ethereum-input-data-decoder": "^0.3.2",
+    "ethers": "^5.6.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^8.4.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.18.0",
+    "underscore": "^1.13.3",
+    "uuid": "^3.4.0",
+    "web3": "^1.5.0",
+    "winston": "^3.3.3"
+  }
+}

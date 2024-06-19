@@ -1,0 +1,14 @@
+15:21:22.379 INFO  {"responseBody":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/user/register</pre>\n</body>\n</html>\n"} 
+15:21:22.380 ERROR {"executionTime":4,"method":"POST","url":"/api/user/register","responseStatusCode":404,"processId":57793,"platform":"linux","dateTime":"2022-04-07T09:51:22.379Z","host":"localhost","requestStartTime":"2022-04-07T09:51:22.375Z"} 
+15:25:38.476 INFO  {"responseBody":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/user/register</pre>\n</body>\n</html>\n"} 
+15:25:38.476 ERROR {"executionTime":1,"method":"POST","url":"/api/user/register","responseStatusCode":404,"processId":57793,"platform":"linux","dateTime":"2022-04-07T09:55:38.476Z","host":"localhost","requestStartTime":"2022-04-07T09:55:38.475Z"} 
+15:26:26.137 INFO  {"responseBody":"{\"message\":\"Welcome to Static API.\"}"} 
+15:26:26.138 INFO  {"executionTime":2,"method":"GET","url":"/","responseStatusCode":200,"processId":57793,"platform":"linux","dateTime":"2022-04-07T09:56:26.137Z","host":"localhost","requestStartTime":"2022-04-07T09:56:26.135Z"} 
+15:26:26.705 INFO  {"responseBody":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /favicon.ico</pre>\n</body>\n</html>\n"} 
+15:26:26.706 ERROR {"executionTime":1,"method":"GET","url":"/favicon.ico","responseStatusCode":404,"processId":57793,"platform":"linux","dateTime":"2022-04-07T09:56:26.705Z","host":"localhost","requestStartTime":"2022-04-07T09:56:26.704Z"} 
+15:31:06.582 INFO  {"responseBody":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/user/register</pre>\n</body>\n</html>\n"} 
+15:31:06.582 ERROR {"executionTime":0,"method":"POST","url":"/api/user/register","responseStatusCode":404,"processId":57793,"platform":"linux","dateTime":"2022-04-07T10:01:06.582Z","host":"localhost","requestStartTime":"2022-04-07T10:01:06.582Z"} 
+15:33:49.604 INFO  {"responseBody":"{\"message\":\"Fullname is not valid.\"}"} 
+15:33:49.605 ERROR {"executionTime":4,"method":"POST","url":"/register","responseStatusCode":400,"processId":60013,"platform":"linux","dateTime":"2022-04-07T10:03:49.604Z","host":"localhost","requestStartTime":"2022-04-07T10:03:49.600Z"} 
+15:36:46.991 INFO  {"responseBody":"{\"message\":\"Fullname is not valid.\"}"} 
+15:36:46.992 ERROR {"executionTime":5,"method":"POST","url":"/register","responseStatusCode":400,"processId":60538,"platform":"linux","dateTime":"2022-04-07T10:06:46.991Z","host":"localhost","requestStartTime":"2022-04-07T10:06:46.986Z"} 

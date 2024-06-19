@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mcubebiz-blockchain/contracts/ERC20.sol": "Context"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mcubebiz-blockchain/contracts/ERC20.sol": {
+			"keccak256": "0xab5c61a5bfa98d7ac873c9932f52b205f70d573eed6fc1c1817809a8357e3897",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a91f6f01c3193e4838e6a6be248cdfe4bbdd325a310fb1ee306f891d43d14265",
+				"dweb:/ipfs/QmaaWxq1pSDQWWovbQ1N28BXx57XjJcCDAuhRbvgg54XZf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+ 
+.loader{
+  width: 100%;
+    text-align: center;
+    z-index: 99999;
+    position: absolute;
+    background: #00000040;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.spinner-border{
+  top: 50%;
+  position: relative;
+}

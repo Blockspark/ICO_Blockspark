@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+node_js/node_modules/
+admin_dashboard/node_modules/
+node_js/package-lock.json
+admin_dashboard/package-lock.json
+node_js/.env
+.env

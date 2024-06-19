@@ -1,0 +1,1284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+ 
+
+@font-face {
+    font-family: "NissanOpti";
+    src: local("NissanOpti"),
+     url("./assets//fonts/NissanOpti.ttf") format("truetype");
+     font-weight: normal;
+    }
+
+    @font-face {
+        font-family: "NissanOptiItalic";
+        src: local("NissanOptiItalic"),
+         url("./assets//fonts/NissanOptiItalic.ttf") format("truetype");
+         font-weight: normal;
+        }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section, main{
+    background: #0A1019;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: darkgrey;
+}
+.nav-link:hover{
+    color: darkgrey !important;
+}
+.cstm-btn-toggle{
+    box-shadow: none !important;
+}
+
+.opportunity-tab li{
+    cursor: pointer;
+}
+
+.section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:35.64px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 37.5193px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-title-efct{
+    background: linear-gradient(90deg, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.section-text-max-wdth {
+    max-width: 74%;
+    margin: 0 auto;
+}
+.section-text-max-wdth1 {
+    max-width: 57%;
+    margin: 0 auto;
+}
+
+  /* navbar css */
+
+span.navbar-toggler-icon {
+    color: #ffff;
+    padding-top: 6px;
+}
+
+.navigation{
+    background: rgba(10, 16, 25, 0.7);
+    backdrop-filter: blur(68px);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+    top: 0px;
+}
+
+button.btn.nav-btn {
+    background: rgba(28, 43, 53, 0.8);
+    backdrop-filter: blur(45.7736px);
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 13.507px;
+    padding: 10px 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF !important;
+}
+
+.gr-btn{
+    filter: drop-shadow(0px 0px 21px #000000);
+    border-radius: 9px !important;
+    background-color: #1A1C24 !important;
+    border: double 1px transparent !important;
+    background-image: linear-gradient(#1A1C24, #1A1C24), linear-gradient(90deg, rgba(255, 255, 255, 0.32), rgba(51, 255, 0, 0)); 
+    background-origin: border-box;
+    background-clip: content-box, border-box !important;
+    width: fit-content;
+    margin-left: auto;
+}
+
+li.nav-item {
+    padding-left: 20px;
+}
+
+a.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+.help-menu-btn{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+/* navbar css end */
+
+
+/* banner css */
+
+.mcubez-banner{
+    background: url(./assets/images/hero.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 763px;
+    position: relative;
+}
+.banner-text-p{
+   font-size: 13px !important;
+   max-width: 90%;
+   margin: 0 auto;
+   line-height: 22.64px;
+}
+
+a.btn.section-btn {
+    border-color: transparent;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 13px 43px;
+}
+
+.banner-content-box {
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+    padding: 10px 39px 10px 39px;
+    border-radius: 9px;
+    position: absolute;
+     left: 50%;
+    transform: translateX(-50%);
+    bottom: 67px;
+    margin: 0 auto;
+    max-width: 52%;
+    width: 100%;
+}
+
+.banner-btn {
+    margin-top: 1.5rem;
+}
+
+.bnr-text{
+    background: linear-gradient(90deg, #3F7EA4 0%, #BC60AD 46.33%, #B66088 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    font-weight: 600;
+    font-size: 17.0237px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+
+.banner-top-text{
+    font-weight: 500;
+    font-size: 20.4179px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.banner-top-txt-efct{
+    background: linear-gradient(93.19deg, #3A99CF -16.76%, #FFFFFF 48.15%, #0E99EE 113.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.banner-middle-text{
+    font-family: 'NissanOpti';
+    font-style: normal;  
+    font-weight: 500;
+    font-size: 39.18px;
+    line-height: 56px;  
+    text-align: center;
+    letter-spacing: 0.08em;
+    background: linear-gradient(81.07deg, #FFFFFF 6.57%, #E1D2F4 64.45%, #FED3E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+} 
+
+/* banner css end */
+
+
+/* opportunity css */
+
+.opportunity-bg{
+    background-image: url(./assets/images/opportunity-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opportunity-sec {
+    padding: 0 0 90px 0;
+}
+.opportunity-scrol-img{
+    width: 100px;
+    margin-bottom: 75px;
+}
+.opportunity-img{
+    height: 378px;
+}
+
+.opportunity-tab {
+    display: inline-block !important;
+}
+
+.nav-pills .nav-link.active{
+    background: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(50px) !important;
+    border-radius: 12px !important;
+}
+
+.nav-pills .nav-link{
+    background: rgba(0, 0, 0, 0.16) !important;
+    backdrop-filter: blur(60px) !important;
+    border-radius: 12px !important;
+}
+.opportunity-tab-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;   
+}
+
+.opportunity-tab-title-efct{
+    background: linear-gradient(90deg, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.opportunity-tab-para{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;  
+}
+
+/* opportunity css end */
+
+
+/* about section */
+
+.aboutus-bg{
+    background-image: url(./assets/images/aboutus-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-sec {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.about-sec-para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 198%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.card {
+    background-color:transparent !important;
+    border:none !important;
+}
+.card-faq {
+   
+    border:1px solid #eee !important;
+}
+
+.card-img-overlay{
+   background-color: rgba(6, 18, 49, 0.4);
+   border-radius: 14px;
+   border-top-left-radius: unset !important;
+   border-top-right-radius: unset !important;
+   top: unset;
+   -webkit-backdrop-filter: blur(4px);
+   backdrop-filter: blur(4px);
+   height: 137px;
+}
+.card-img-top{
+    border-radius: 14px;
+}
+
+.card-title {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 27px;
+     line-height: 34px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+}
+
+.abt-spn-title{
+    background: linear-gradient(90deg, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent; 
+  }
+  
+  .card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165.5%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  /* about-sec css end */
+
+
+  /* offer css */
+.navbar-brand-img{
+    width: 190px;
+}
+.offer-bg{
+     background-image: url(./assets/images/Background_Gradient_for_Team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.offer-heading{
+    font-weight: 600;
+    font-size: 29.97px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.offer-heading-efct{
+    background: linear-gradient(90deg, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.offer-para{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    background: linear-gradient(81.07deg, #FFFFFF 6.57%, #E1D2F4 64.45%, #FED3E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.offer-col{
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(45.0232px);
+    Height:100%;
+    border-radius: 8px;
+}
+
+  /* offer css end */
+
+
+
+  /* launch details css */
+
+.launch-details{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.launch-details-col-text-spn{
+    background: linear-gradient(81.07deg, #FFFFFF 6.57%, #E1D2F4 64.45%, #FED3E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    font-weight: 600;
+    font-size: 15.0077px;
+    line-height: 193%;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+} 
+
+.launch-details-col-text{
+    font-weight: 400;
+    font-size: 15.0077px;
+    line-height: 193%;
+    letter-spacing: 0.02em;
+    background: linear-gradient(81.07deg, #FFFFFF 6.57%, #E1D2F4 64.45%, #FED3E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.launch-bg{
+    background: #111921;
+    padding: 47px 0 75px 0;
+}
+
+.launch-details-col-left {
+    padding-left: 6rem !important;
+}
+
+.launch-details-col-right {
+    margin-left: -1rem;
+}
+
+.launch-card-title1{
+    font-weight: 600;
+    font-size: 21.0108px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;  
+    color: #FFFFFF;
+}
+
+.launch-card-title2{
+    font-weight: 600;
+    font-size: 15.0077px;
+    line-height: 23px;  
+    text-align: center;
+    letter-spacing: 0.02em;  
+    color: #FFFFFF; 
+}
+
+.launch-card-title3{
+    font-weight: 400;
+    font-size: 16.5085px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;   
+    color: #FFFFFF; 
+}
+
+.launch-card-title4{
+    font-weight: 300;
+    font-size: 12.0062px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;  
+    color: #FFFFFF;
+}
+
+.launch-live {
+    margin-bottom: 1rem;
+}
+
+.border{
+    background: linear-gradient(to right, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    border-radius: 11.8375px !important;
+    padding:0.8px;
+}
+.inner {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 24px 0 !important;
+    border-radius: 11.8375px !important;
+}
+  /* launch details css end */
+
+  /* our team css */
+
+.our-team{
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.our-team-bg{
+    background-image: url(./assets/images/Background_Gradient_for_Team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-team-heading{
+    font-weight: 600;
+    font-size: 18.3221px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.our-team-para1{
+    font-weight: 300;
+    font-size: 13.7416px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.our-team-para2{
+    font-weight: 500;
+    font-size: 13.7416px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.our-team-para2 img {
+    margin-left: 0.2rem;
+}
+
+.our-team-col{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(80px);
+    height: 322.16px;
+    border-radius: 11.6354px;
+}
+
+.road-map{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.roadmap-section {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.road-map-img{
+    background-image: url(./assets/images/road.svg);
+    height: 944px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.flag-img::before{
+    content:  url(./assets/images/f.svg);
+    bottom: 72px;
+    left: 154px;
+    position: absolute;
+}
+
+.road-map-box{
+    padding: 1.5rem 1rem;
+    background: rgba(15, 35, 58, 0.7);
+    backdrop-filter: blur(67.6118px);
+    width: 442px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+
+.road-map-box-para{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.road-map-box-title-left, .road-map-box-title-right{
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;    
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.road-map-box-title-right{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right !important;    
+}
+
+.road-map-col1 {
+    margin-top: 77px;
+}
+.road-map-col2, .road-map-col4 {
+    margin-top: 97px;
+}
+.road-map-col3 {
+    margin-top: 92px;
+}
+.road-map-col5 {
+    margin-top: 90px;
+}
+.road-map-col6 {
+    margin-top: 100px;
+}
+  /* road map css end */
+
+
+  /* learn more css */
+
+.learn-more-sec{
+    padding-top: 90px;
+
+}
+
+.btn-outline-secondary {
+    border: 0.750387px solid #FFFFFF !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.02em !important;
+    padding: 18px 41px !important;
+    background: linear-gradient(90deg, #A6D0EA 0%, #F0A7E4 46.33%, #D888AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.learn-more-sec-ply-btn {
+    cursor: pointer;
+}
+.learn-more-sec-link button {
+
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13.507px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.learn-more-sec-box{
+    background-image: url(./assets/images/learnmore-bg.svg);
+    height: 298px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.whitepaper-text{
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+
+  /* learn more css end */
+
+  /* footer css */
+
+.footer-sec{
+    background: #0B0D17;
+    padding: 1.5rem 0 3rem 0;
+}
+
+.footer-border{
+    color: #fff;
+    opacity: 0.2;
+}
+
+.footer-top-title{
+    font-weight: 500;
+    font-size: 16.0083px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background: linear-gradient(258.65deg, #7098B3 5.72%, #7CB1C5 15.39%, #A9AAC9 20.29%, #C2ACCF 33.6%, #C690C0 48.01%, #D9A3B7 57.83%, #CA90A9 80.37%, #B58BB7 94.42%, #B57BB8 98.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: transparent !important;
+    border: none !important;
+
+}
+
+.list-group-item  a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
+
+.social-links{
+    width: 29px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    color: #1d1919;
+    background: rgba(15, 35, 58, 0.7);
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.social-links-right{
+    padding: 0 0.5rem !important;
+}
+
+.footer-text-left{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #D9DBE1;
+}
+
+ul.list-group.list-group-horizontal.justify-content-end {
+    margin-top: -1.1rem;
+}
+
+
+  /* footer css end */
+
+
+
+  /* responsive css */
+  @media only screen and (min-width: 1600px) {
+    .mcubez-banner{
+        height: 100vh !important;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    div#future {
+        text-align: center;
+    }
+    .section-title {
+     
+        font-size: 37.5193px;
+    }
+    a.nav-link, .card-text {
+      font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+   .roadmap-section {
+      margin-top: 7rem;  
+   }
+}
+
+@media (max-width: 1024.98px) { 
+    .road-map-col1 {
+        margin-top: 93px;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 91px;
+    }
+    .road-map-col4 {
+        margin-top: 85px;
+    }
+    .road-map-col5 {
+        margin-top: 82px;
+    }
+    .road-map-col6 {
+        margin-top: 95px;
+    }
+    .card-img-overlay {
+        height: 150px;
+    }
+ }
+
+
+@media only screen and (max-width: 992.98px) {
+     .section-text {
+      font-size: 13px;
+     }
+     .about-sec-col {
+      justify-content: center;
+      display: flex;
+    }
+     .roadmap-section {
+        margin-top: 2rem !important;
+    }
+    .road-map-col1 {
+      margin-top: 107px;
+    }
+    .road-map-col2, .road-map-col3 {
+      margin-top: 85px;
+    }
+    .road-map-col5 {
+      margin-top: 75px;
+    }
+    .launch-details-col-right {
+        margin-left: 0;
+        padding: 0px 2rem !important;
+    }
+    .section-text {  
+        line-height: 23.64px;
+    }
+    .banner-text-p {
+        max-width: 100%;
+    }
+    .banner-content-box {
+        max-width: 85%;
+    }
+    .card-title {
+        font-size: 21px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .card-img-overlay {
+        height: 50%;
+    }
+    .gr-btn{
+        margin:0 auto;
+    }
+}
+
+@media only screen and (max-width: 820.98px) {
+    .responsive-left {
+        justify-content: left !important;
+    }
+    .responsive-side {
+        margin-left: -7rem;
+    }
+    .road-map-box {
+      width: 400px;
+    }
+    .road-map-col1 {
+        margin-top: 181px;
+    }
+    
+    .road-map-col2, .road-map-col3 {
+        margin-top: 55px;
+    }
+    .road-map-col4 {
+        margin-top: 52px;
+    }
+    .road-map-col5 {
+        margin-top: 51px;
+    }
+    .road-map-col6 {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .learn-more-sec-box {
+      border-radius: 17px; 
+  }
+  .banner-middle-text {
+      font-size: 32.3731px;
+  }
+  .section-text {
+      font-size: 10px;
+  }
+  .launch-details-col-right {
+      padding: 0 2rem !important;
+  }
+  .launch-details-col-left {
+      padding-left: 0 !important;
+      text-align: center;
+  }
+  .roadmap-section {
+      margin-bottom: 0rem;
+  }
+  .roadmap-section {
+    margin-top: 0rem !important;
+  }
+  .road-map-col1 {
+      margin-top: 200px;
+  }
+  .road-map-col2, .road-map-col3 {
+      margin-top: 46px;
+  }
+  .road-map-col4 {
+      margin-top: 48px;
+  }
+  .road-map-col5 {
+      margin-top: 38px;
+  }
+  .road-map-col6 {
+      margin-top: 54px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .road-map-img{
+      background-image: url(./assets/images/responsive-img-road.svg) !important;
+  }
+  .roadmap-section {
+      margin-top: 4rem !important;
+  }
+  .launch-details-col-right {
+      padding: 0 2rem !important;
+  }
+}
+
+@media only screen and (max-width:712.98px) {
+    .road-map-col1 {
+        margin-top: 60px;
+    }
+    .responsive-left {
+        margin-left: 5rem;
+    }
+    .responsive-side {
+        margin-left: 12rem;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 102px;
+    }
+    .road-map-col4 {
+        margin-top: 102px;
+    }
+    .road-map-col5 {
+        margin-top: 99px;
+    }
+    .road-map-col6 {
+        margin-top: 113px;
+    }
+}
+
+  @media only screen and (max-width: 600.98px) {
+
+    li.nav-item, .nav-button {
+        text-align: center;
+    }
+    .banner-middle-text {
+        font-size: 29.3731px;
+    }
+    .section-text, .opportunity-tab-para, .card-text, .offer-para, .our-team-para2 {
+        font-size: 10px;
+    }
+    a.btn.section-btn, .btn-outline-secondary {
+        padding: 9px 17px !important;
+    }
+    .bnr-text, .btn-outline-secondary  {
+        font-size: 14.0237px !important;
+    }
+    .section-title {
+        font-size: 21.5193px;
+    }
+    .card-title, .offer-heading, .offer-heading-efct, .our-team-heading {
+        font-size: 16px;
+    }
+    ul.list-group.list-group-horizontal {
+         margin-top: 0.9rem !important;
+         text-align: center;
+         justify-content: center !important;
+    }
+    
+    li.list-group-item.social-links-right {
+        margin-bottom: 1rem;
+    }
+    .launch-details-col-text, .launch-details-col-text-spn, .our-team-para1, .list-group-item a, .footer-text-left{
+        font-size: 12.0077px;
+    }
+    .col-md-4.launch-details-col-right-box, .col-lg-4.about-sec-col  {
+        margin-bottom: 2rem;
+    }
+    .footer-sec-bottom {
+        text-align: center;
+    }
+    .launch-details-col-left {
+        padding-left: 0 !important;
+        text-align: center;
+    }  
+    .road-map-box-title-left, .road-map-box-title-right {
+        font-size: 11px;
+        line-height: 7px;  
+    }
+    .road-map-box-para {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .flag-img::before {
+        content: url(./assets/images/responsive-flag.png) !important;
+        bottom: 47px;
+        left: 102px;
+    }
+    .road-map-col1 {
+        margin-top: 37px;
+    }
+    .road-map-box {
+        width: 270px;
+    }
+    .responsive-left {
+        margin-left: 5rem;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 130px;
+    }
+    .responsive-side {
+        margin-left: 14rem;
+    }
+    .road-map-col4 {
+        margin-top: 122px;
+    }
+    .road-map-col5 {
+        margin-top: 124px;
+    }
+    .road-map-col6 {
+        margin-top: 134px;
+    }
+    .section-text {
+        line-height: 13.64px !important;
+    }
+    .about-sec, .offer, .launch-details, .our-team, .road-map{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .opportunity-sec {
+        padding: 0 0 40px 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    ul.list-group.list-group-horizontal.justify-content-end {
+        margin-top: -1.6rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .banner-middle-text {
+        font-size:19.3731px !important;
+        line-height: 33px;
+    }
+    .banner-top-text {
+        font-size: 17.4179px;
+    }
+    .about-sec-col {
+      display: unset !important;
+    }
+}
+
+@media (max-width: 428.98px) { 
+    .road-map-col1 {
+        margin-top: 68px;
+    }
+    .responsive-left {
+        margin-left: 1rem;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 128px;
+    }
+    .responsive-side {
+        margin-left: 8rem;
+    }
+    .road-map-col4 {
+        margin-top: 118px;
+    }
+    .road-map-col6 {
+        margin-top: 131px;
+    }
+    .road-map-col5 {
+        margin-top: 120px;
+    }
+    .road-map-box-title-left, .road-map-box-title-right {
+        line-height: unset;
+    }
+    .road-map-box {
+        padding: 1rem;
+        border-radius: 14px;
+        width: 203px;
+    }
+    .banner-content-box {
+        bottom: 125px;
+    }
+       .card-img-overlay {
+            height: 40%;
+        }
+    .launch-details-col-right-box-wrp{
+        max-width: 240px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:415.98px) {
+    .road-map-col1 {
+        margin-top: 83px;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 121px;
+    }
+    .road-map-col4 {
+        margin-top: 116px;
+    }
+    .road-map-col5 {
+        margin-top: 111px;
+    }
+    .road-map-col6 {
+        margin-top: 126px;
+    }
+    .launch-bg {
+        padding: 40px 0 40px 0;
+    }
+    .about-sec, .offer, .launch-details, .our-team, .road-map {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .roadmap-section {
+        margin-top: 1rem !important;
+    }
+ 
+}
+
+  @media only screen and (max-width:400px) {
+    .opportunity-tab-para {
+        line-height: 15px;
+        font-size: 8px;
+    }
+    .opportunity-tab-title {
+        font-size: 13px;
+    }
+    .opportunity-scrol-img {
+        margin-bottom: 17px;
+    }  
+}
+
+@media only screen and (max-width:393.98px) {
+    .road-map-col1 {
+        margin-top: 104px;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 112px;
+    }
+    .road-map-col4 {
+        margin-top: 107px;
+    }
+    .road-map-col5 {
+        margin-top: 106px;
+    }
+    .road-map-col6 {
+        margin-top: 116px;
+    }
+    ul.list-group.list-group-horizontal.justify-content-center{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:375.98px) {
+    .roadmap-section {
+        margin-top: -2rem !important;
+    }
+    .road-map-col1 {
+        margin-top: 124px;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 103px;
+    }
+    .responsive-side {
+        margin-left: 7rem;
+    }
+    .road-map-col4 {
+        margin-top: 100px;
+    }
+    .road-map-col5 {
+        margin-top: 99px;
+    }
+    .road-map-col6 {
+        margin-top: 108px;
+    }
+    .learn-more-sec-box {
+        border-radius: 17px; 
+        height: 219px;
+    }
+    .whitepaper-text {
+        padding-bottom: 0rem;
+    }
+    .section-title {
+        font-size: 16.5193px;
+    }
+    li.list-group-item {
+        line-height: 8px;
+    }
+}
+
+@media only screen and (max-width:360.98px) {
+    .road-map-col1 {
+        margin-top: 98px;
+    }
+    .road-map-img {
+        height: 856px;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 96px;
+    }
+    .road-map-col4, .road-map-col5 {
+        margin-top: 93px;
+    }
+    .road-map-col6 {
+        margin-top: 101px;
+    }
+}
+
+@media only screen and (max-width:320.98px) {
+    .road-map-img {
+        height: 799px;
+    }
+    .road-map-col1 {
+        margin-top: 113px;
+    }
+    .responsive-side {
+        margin-left: 2rem;
+    }
+    .road-map-col2, .road-map-col3 {
+        margin-top: 80px;
+    }
+    .road-map-col4 {
+        margin-top: 76px;
+    }
+    .road-map-col5 {
+        margin-top: 73px;
+    }
+    .road-map-col6 {
+        margin-top: 83px;
+    }
+}
+
