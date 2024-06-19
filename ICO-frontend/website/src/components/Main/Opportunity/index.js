@@ -35,7 +35,7 @@ const Opportunity = () => {
                    </div>
                    
                    <h2 className="section-title text-center text-capitalize">The <span className="section-title-efct">Opportunity</span> </h2>
-                   <p className="section-text text-center mt-0 mt-sm-3 mb-0 mb-sm-4 section-text-max-wdth1">The intersection of Generative AI, Gaming, Immersive Content and Crypto will revolutionize the entertainment industry</p>
+                   <p className="section-text text-center mt-0 mt-sm-3 mb-0 mb-sm-4 section-text-max-wdth1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                    
                     <div className="row">
 
@@ -46,7 +46,7 @@ const Opportunity = () => {
                                   className={`nav-link py-2 ${activeTab === 'tab1' ? "active" : ""}`}
                                         data-bs-toggle="pill">
                                       <h3 className="opportunity-tab-title"> <span className="opportunity-tab-title-efct">AI Assisted Immersive content is the Future</span></h3>
-                                      <p className="opportunity-tab-para pt-2">Generative AI tools will become easier to create 3D and VR multi-modal content</p>
+                                      <p className="opportunity-tab-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                   </a>
                                 </li>
                                 <li className="nav-item mb-3 px-5">
@@ -55,7 +55,7 @@ const Opportunity = () => {
                                   className={`nav-link py-2 ${activeTab === 'tab2' ? "active" : ""}`}
                                     data-bs-toggle="pill" >
                                     <h3 className="opportunity-tab-title"> <span className="opportunity-tab-title-efct">Immersive Content Growing</span></h3>
-                                    <p className="opportunity-tab-para pt-2">According to Citibank, by 2030, there will be 5 billion immersive content users creating a potential market of $13 Trillion</p>
+                                    <p className="opportunity-tab-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                   </a>
                                 </li>
                                 <li 
@@ -66,7 +66,7 @@ const Opportunity = () => {
                                    className={`nav-link py-2 ${activeTab === 'tab3' ? "active" : ""}`}
                                   data-bs-toggle="pill" >
                                     <h3 className="opportunity-tab-title"> <span className="opportunity-tab-title-efct">Crypto will Supercharge Revenues</span></h3>
-                                    <p className="opportunity-tab-para pt-2">There are over 3 billion gamers worldwide who will make a good target for AI assisted immersive games.</p>
+                                    <p className="opportunity-tab-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                   </a>
                                 </li>
                               </ul>

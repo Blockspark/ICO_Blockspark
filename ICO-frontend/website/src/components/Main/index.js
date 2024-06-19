@@ -19,7 +19,7 @@ const Main = () => {
               <Opportunity />
               <Aboutus />
               <Offer />
-              <LaunchDetails />
+              {/* <LaunchDetails /> */}
               <Team />
               <RoadMap />
               <Whitepaper />

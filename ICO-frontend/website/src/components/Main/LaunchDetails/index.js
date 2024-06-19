@@ -10,7 +10,7 @@ const LaunchDetails = () => {
                     <h2 className="section-title text-capitalize mb-4">Launch <span className="section-title-efct">Details</span> </h2>
                     <div className="launch-details-left-contents">
                       <p className="launch-details-col-text">Token Type:&nbsp;&nbsp;<span className="launch-details-col-text-spn">ERC20 (ETH)</span></p>
-                      <p className="launch-details-col-text">Total Name:&nbsp;&nbsp;<span className="launch-details-col-text-spn">MetaFlixWorld</span></p>
+                      <p className="launch-details-col-text">Total Name:&nbsp;&nbsp;<span className="launch-details-col-text-spn">lixWorld</span></p>
                       <p className="launch-details-col-text">Ticker:&nbsp;&nbsp;<span className="launch-details-col-text-spn">$MFLIX</span></p>
                       <p className="launch-details-col-text">Total Supply:&nbsp;&nbsp;<span className="launch-details-col-text-spn">1 Trillion</span></p>
                      </div>

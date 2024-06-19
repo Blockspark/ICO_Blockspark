@@ -10,15 +10,15 @@ const Offer = () => {
                 <div className="col-xl-4 col-md-6 py-3">
                     <div className="offer-top-col-wrp offer-col p-4">
                         <div className="offer-icon  mb-3"> <img src={require("../../../assets/images/offer1.svg").default}  alt="" /> </div>
-                        <div className="offer-heading">Flix <span className="offer-heading-efct">3D</span></div>
-                        <div className="offer-para mt-3">3D movies and shows converted from existing 2D content. The conversion will be via our proprietary AI based software.</div>
+                        <div className="offer-heading"><span className="offer-heading-efct">3D</span></div>
+                        <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-6 py-3">
                     <div className="offer-top-col-wrp offer-col p-4">
                         <div className="offer-icon  mb-3"><img src={require("../../../assets/images/offer2.svg").default}  alt="" /></div>
-                        <div className="offer-heading">Flix <span className="offer-heading-efct">3DVR</span></div>
-                        <div className="offer-para mt-3">Virtual reality based movies and shows featuring metaverse settings and avatars.</div>
+                        <div className="offer-heading"><span className="offer-heading-efct">3DVR</span></div>
+                        <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     </div>
                 </div>
                 {/* <div className="col-xl-3 py-3">
@@ -31,15 +31,15 @@ const Offer = () => {
                 <div className="col-xl-4 col-md-6 py-3">
                     <div className="offer-top-col-wrp offer-col p-4">
                         <div className="offer-icon  mb-4 pb-2"><img src={require("../../../assets/images/offer3.svg").default}  alt="" /></div>
-                        <div className="offer-heading">Flix <span className="offer-heading-efct">AI</span></div>
-                        <div className="offer-para mt-3">FlixAI is a set of AI tools that will leverage the power of Generative AI</div>
+                        <div className="offer-heading"><span className="offer-heading-efct">AI</span></div>
+                        <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-6 py-3">
                   <div className="offer-top-col-wrp offer-col p-4">
                       <div className="offer-icon mb-3"><img src={require("../../../assets/images/offer4.svg").default}  alt="" /></div>
-                      <div className="offer-heading">Flix <span className="offer-heading-efct">Games</span></div>
-                      <div className="offer-para mt-3">FlixGames are games available from our gaming platform as well as games from our partners. </div>
+                      <div className="offer-heading"><span className="offer-heading-efct">Games</span></div>
+                      <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                   </div>
                 </div>
                 {/* <div className="col-xl-3  py-3">
@@ -52,15 +52,15 @@ const Offer = () => {
                 <div className="col-xl-4 col-md-6 py-3">
                   <div className="offer-top-col-wrp offer-col p-4">
                       <div className="offer-icon  mb-3"><img src={require("../../../assets/images/offer5.svg").default}  alt="" /></div>
-                      <div className="offer-heading">Flix <span className="offer-heading-efct">Worlds</span></div>
-                      <div className="offer-para mt-3">FlixWorlds are virtual worlds featuring moving characters, shopping, and land sales</div>
+                      <div className="offer-heading"><span className="offer-heading-efct">Worlds</span></div>
+                      <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6 py-3">
                   <div className="offer-top-col-wrp offer-col p-4">
                       <div className="offer-icon  mb-3"><img  src={require("../../../assets/images/offer6.svg").default} alt="" /></div>
-                      <div className="offer-heading">Flix <span className="offer-heading-efct">Wallet</span></div>
-                      <div className="offer-para mt-3">Secure wallet for trading cryptos and NFTs. Features DApp browser.</div>
+                      <div className="offer-heading"><span className="offer-heading-efct">Wallet</span></div>
+                      <div className="offer-para mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                   </div>
                 </div>
                </div>

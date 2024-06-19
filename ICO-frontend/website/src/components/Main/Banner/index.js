@@ -7,15 +7,15 @@ const Banner = () => {
                     <div className="banner-content-box  text-center">
                         <div>
                             <p className="banner-top-text mb-1"><span className="">
-                            <img src={require("../../../assets/images/new_metaflixsplash-bannerlogo1.png") } alt="" />
+                            <img src={require("../../../assets/images/Blockspark_Logo.png") } alt="" />
                             </span></p>
-                            <h1 className="banner-middle-text">Welcome to MetaFlixWorld</h1>
+                            <h1 className="banner-middle-text">Welcome to Blockspark</h1>
                             <p className="section-text banner-text-p">
-                            Bridging the worlds of Generative AI, Immersive Media, Gaming and Crypto. Watch immersive 3D and 3DVR content, play online games and explore movie themed worlds.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                             
                             <div  className="banner-btn">
-                                <a className="btn section-btn text-capitalize"   href="/#" role="button" rel="noreferrer"><span className="bnr-text">Join MetaFlix</span> </a>
+                                <a className="btn section-btn text-capitalize"   href="/#" role="button" rel="noreferrer"><span className="bnr-text">Join Blockspark</span> </a>
                             </div>
                             </div>
                     </div>
