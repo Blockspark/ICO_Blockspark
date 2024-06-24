@@ -26,7 +26,7 @@ export const loadContractSymbol = async () => {
 };
 
 export const loadContractTotalSupply = async () => {
-  let totalSupplyvalue = ethers.BigNumber.from(await tokenContractDetails.totalSupply()).div(ethers.BigNumber.from(10).pow(6).toString()).toString();
+  let totalSupplyvalue = ethers.BigNumber.from(await tokenContractDetails.totalSupply()).div(ethers.BigNumber.from(10).pow(18).toString()).toString();
   return totalSupplyvalue;
 };
 
